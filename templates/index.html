@@ -4,16 +4,24 @@
   <meta charset="UTF-8">
   <title>Alvaro`s_Generator</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
 </head>
 <body>
-  <h2>Enter two names</h2>
-  <form method="POST">
-    <input type="text" name="name1" placeholder="Your name">
-    <input type="text" name="name2" placeholder="Other person's name">
-    <button type="submit">Generate</button>
-  </form>
-  {% if result %}
-    <p>{{ result }}</p>
-  {% endif %}
+   <div class="container">
+        <h1>Alvaro's Generator</h1>
+
+        <form method="POST">
+            <input type="text" name="name1" placeholder="your name">
+            <input type="text" name="name2" placeholder="other person's name">
+            <button type="submit">Generate</button>
+       </form>
+  <div class="output">
+            {{ result }}
+        </div>
+
+        <footer>
+            <p>Made by Alvaro<br>Inspired from otppromps generator</p>
+        </footer>
+    </div>
 </body>
 </html>
