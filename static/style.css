@@ -1,6 +1,6 @@
 body {
   background-color: #001f3f; /* navy blue */
-    color: #ffffff;
+    color: #f5f5dc; /* beige */
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -24,7 +24,7 @@ input[type="text"] {
 
 button {
  padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: #f5f5dc; /* beige */
     color: #001f3f;
     border: none;
     border-radius: 5px;
@@ -33,10 +33,10 @@ button {
 
 button:hover {
     background-color: #004080;
-    color: #ffffff;
+    color:  #f5f5dc; /* beige */
 }
 .output {
-   background-color: #ffffff;
+   background-color: #f5f5dc; /* beige */
     color: #001f3f;
     padding: 20px;
     border-radius: 10px;
